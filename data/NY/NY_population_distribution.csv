@@ -62,9 +62,7 @@ Rank,City,Population
 61,Carmel,"33,576"
 62,Salina,"33,223"
 63,Spring Valley,"33,066"
-"64
-          
-            TIE",Kiryas Joel and Palm Tree,"32,954"
+64,Kiryas Joel and Palm Tree,"32,954"
 65,Clarence,"32,950"
 66,Rome,"32,127"
 67,Ithaca,"32,108"
@@ -197,12 +195,8 @@ Rank,City,Population
 194,Mamakating,"12,655"
 195,Chester,"12,646"
 196,Brunswick,"12,581"
-"197
-          
-            TIE",Massena and Malone,"12,433"
-"198
-          
-            TIE",Patchogue and North Castle,"12,408"
+197,Massena and Malone,"12,433"
+198,Patchogue and North Castle,"12,408"
 199,Haverstraw village,"12,323"
 200,Lewisboro,"12,265"
 201,German Flatts,"12,263"
@@ -215,9 +209,7 @@ Rank,City,Population
 208,Elma,"11,721"
 209,Canton,"11,638"
 210,Lansing,"11,565"
-"211
-          
-            TIE",Dobbs Ferry and Patterson,"11,541"
+211,Dobbs Ferry and Patterson,"11,541"
 212,Woodbury village,"11,526"
 213,Suffern,"11,441"
 214,Bath,"11,424"
@@ -227,9 +219,7 @@ Rank,City,Population
 218,Lloyd,"11,133"
 219,Canandaigua town,"11,109"
 220,Lake Grove,"11,072"
-"221
-          
-            TIE",Mount Kisco and Chenango,"10,959"
+221,Mount Kisco and Chenango,"10,959"
 222,West Haverstraw,"10,678"
 223,Canandaigua,"10,576"
 224,Corning,"10,551"
@@ -241,9 +231,7 @@ Rank,City,Population
 230,New Hyde Park,"10,257"
 231,Geneseo,"10,234"
 232,Airmont,"10,166"
-"233
-          
-            TIE",Liberty and East Rockaway,"10,159"
+233,Liberty and East Rockaway,"10,159"
 234,Massena village,"10,151"
 235,Kirkland,"10,075"
 236,Ogdensburg,"10,064"
@@ -276,9 +264,7 @@ Rank,City,Population
 263,Newark,"9,017"
 264,Marcy,"8,777"
 265,Port Jervis,"8,775"
-"266
-          
-            TIE",Ellicott and Lenox,"8,768"
+266,Ellicott and Lenox,"8,768"
 267,Hamlin,"8,725"
 268,Marlborough,"8,712"
 269,Newstead,"8,689"
@@ -336,9 +322,7 @@ Rank,City,Population
 321,Pelham village,"7,326"
 322,New Paltz village,"7,324"
 323,East Hills,"7,284"
-"324
-          
-            TIE",Scotia and Rochester town,"7,272"
+324,Scotia and Rochester town,"7,272"
 325,Nyack,"7,265"
 326,Coeymans,"7,256"
 327,Herkimer village,"7,234"
@@ -368,9 +352,7 @@ Rank,City,Population
 351,North Syracuse,"6,739"
 352,Hoosick,"6,711"
 353,Bronxville,"6,656"
-"354
-          
-            TIE",Warwick village and Irvington,"6,652"
+354,Warwick village and Irvington,"6,652"
 355,Solvay,"6,645"
 356,Cairo,"6,644"
 357,Phelps,"6,637"
@@ -386,9 +368,7 @@ Rank,City,Population
 367,Fenton,"6,429"
 368,Hamilton,"6,379"
 369,East Rochester,"6,334"
-"370
-          
-            TIE",Homer and Batavia town,"6,293"
+370,Homer and Batavia town,"6,293"
 371,Woodstock,"6,287"
 372,Granville,"6,215"
 373,Hurley,"6,178"
@@ -408,9 +388,7 @@ Rank,City,Population
 387,Salamanca,"5,929"
 388,Westmoreland,"5,924"
 389,Watertown town,"5,913"
-"390
-          
-            TIE",Collins and Hudson,"5,894"
+390,Collins and Hudson,"5,894"
 391,Duanesburg,"5,863"
 392,Wilson,"5,847"
 393,Brownville,"5,842"
@@ -431,9 +409,7 @@ Rank,City,Population
 408,Marbletown,"5,658"
 409,Washingtonville,"5,657"
 410,Webster village,"5,651"
-"411
-          
-            TIE",Richland and Albion village,"5,637"
+411,Richland and Albion village,"5,637"
 412,Kings Point,"5,619"
 413,Gardiner,"5,610"
 414,Riga,"5,586"
@@ -488,9 +464,7 @@ Rank,City,Population
 463,Ulysses,"4,890"
 464,Lowville,"4,888"
 465,Saranac Lake,"4,887"
-"466
-          
-            TIE",Colesville and Greenwich,"4,868"
+466,Colesville and Greenwich,"4,868"
 467,Schuyler Falls,"4,843"
 468,Waterloo village,"4,810"
 469,Murray,"4,796"
@@ -539,18 +513,14 @@ Rank,City,Population
 512,Eaton,"4,284"
 513,Pembroke,"4,264"
 514,Olive,"4,226"
-"515
-          
-            TIE",Fayetteville and Springville,"4,225"
+515,Fayetteville and Springville,"4,225"
 516,Lisbon,"4,221"
 517,Arcade,"4,187"
 518,Cobleskill village,"4,173"
 519,Ellenville,"4,167"
 520,Minden,"4,166"
 521,Oswegatchie,"4,158"
-"522
-          
-            TIE",Lima and Caledonia,"4,154"
+522,Lima and Caledonia,"4,154"
 523,Ellery,"4,122"
 524,Unadilla,"4,116"
 525,Cayuga Heights,"4,114"
@@ -559,9 +529,7 @@ Rank,City,Population
 528,Chatham,"4,104"
 529,Chazy,"4,096"
 530,West Monroe,"4,088"
-"531
-          
-            TIE",Dannemora and Clinton town,"4,037"
+531,Dannemora and Clinton town,"4,037"
 532,Hornellsville,"4,034"
 533,Alfred village,"4,026"
 534,Whitehall,"4,023"
@@ -569,16 +537,10 @@ Rank,City,Population
 536,Wolcott,"4,002"
 537,Chester village,"3,993"
 538,Deerfield,"3,983"
-"539
-          
-            TIE",Sherburne and South Blooming Grove,"3,973"
-"540
-          
-            TIE",Bethel and Warrensburg,"3,959"
+539,Sherburne and South Blooming Grove,"3,973"
+540,Bethel and Warrensburg,"3,959"
 541,Hopewell,"3,931"
-"542
-          
-            TIE",Athens and Elmira Heights,"3,916"
+542,Athens and Elmira Heights,"3,916"
 543,Saugerties village,"3,899"
 544,Hartland,"3,874"
 545,Saranac,"3,852"
@@ -593,9 +555,7 @@ Rank,City,Population
 554,Dix,"3,757"
 555,Catskill village,"3,745"
 556,South Glens Falls,"3,744"
-"557
-          
-            TIE",Alexandria and Greenville,"3,741"
+557,Alexandria and Greenville,"3,741"
 558,Floyd,"3,733"
 559,Wayland,"3,732"
 560,Sidney village,"3,697"
@@ -603,9 +563,7 @@ Rank,City,Population
 562,Highland Falls,"3,684"
 563,Stanford,"3,682"
 564,Canajoharie,"3,660"
-"565
-          
-            TIE",Fayette and Minoa,"3,657"
+565,Fayette and Minoa,"3,657"
 566,Owego village,"3,654"
 567,Lansing village,"3,648"
 568,Warsaw village,"3,646"
@@ -626,9 +584,7 @@ Rank,City,Population
 583,Gouverneur village,"3,526"
 584,Galway,"3,525"
 585,Muttontown,"3,512"
-"586
-          
-            TIE",Portville and North Collins,"3,504"
+586,Portville and North Collins,"3,504"
 587,Lake George,"3,502"
 588,Rush,"3,490"
 589,Geneva town,"3,473"
@@ -656,9 +612,7 @@ Rank,City,Population
 611,Rockland,"3,290"
 612,Dannemora village,"3,287"
 613,Tupper Lake village,"3,282"
-"614
-          
-            TIE",Hounsfield and Holland,"3,281"
+614,Hounsfield and Holland,"3,281"
 615,White Creek,"3,275"
 616,Lowville village,"3,272"
 617,Ravena,"3,271"
@@ -666,9 +620,7 @@ Rank,City,Population
 619,New York Mills,"3,244"
 620,Carthage,"3,236"
 621,Bennington,"3,235"
-"622
-          
-            TIE",Gaines and New Baltimore,"3,226"
+622,Gaines and New Baltimore,"3,226"
 623,Sterling,"3,221"
 624,Hoosick Falls,"3,216"
 625,Homer village,"3,210"
@@ -679,18 +631,14 @@ Rank,City,Population
 630,Au Sable,"3,183"
 631,York,"3,182"
 632,Brightwaters,"3,181"
-"633
-          
-            TIE",Campbell and Port Washington North,"3,160"
+633,Campbell and Port Washington North,"3,160"
 634,Maybrook,"3,150"
 635,Oakfield,"3,145"
 636,Cuba,"3,126"
 637,Colden,"3,121"
 638,Bergen,"3,120"
 639,Middleburgh,"3,112"
-"640
-          
-            TIE",Fort Edward village and Orchard Park village,"3,108"
+640,Fort Edward village and Orchard Park village,"3,108"
 641,Schoharie,"3,107"
 642,Chester town,"3,086"
 643,Manheim,"3,082"
@@ -720,9 +668,7 @@ Rank,City,Population
 667,Moira,"2,916"
 668,Westfield village,"2,910"
 669,Mount Morris village,"2,898"
-"670
-          
-            TIE",Florida village and Akron,"2,888"
+670,Florida village and Akron,"2,888"
 671,Walton village,"2,885"
 672,Shandaken,"2,866"
 673,Ovid,"2,847"
@@ -730,9 +676,7 @@ Rank,City,Population
 675,Carlton,"2,835"
 676,Lake Success,"2,828"
 677,Milford,"2,827"
-"678
-          
-            TIE",Munsey Park and Triangle,"2,809"
+678,Munsey Park and Triangle,"2,809"
 679,Franklinville,"2,802"
 680,Stephentown,"2,791"
 681,Orleans,"2,788"
@@ -770,13 +714,9 @@ Rank,City,Population
 713,Seneca,"2,644"
 714,Annsville,"2,639"
 715,Knox,"2,635"
-"716
-          
-            TIE",Brasher and Durham,"2,627"
+716,Brasher and Durham,"2,627"
 717,Denmark,"2,626"
-"718
-          
-            TIE",Silver Creek and Kendall,"2,617"
+718,Silver Creek and Kendall,"2,617"
 719,Salem,"2,612"
 720,Aurelius,"2,611"
 721,Alden village,"2,604"
@@ -821,18 +761,12 @@ Rank,City,Population
 760,Chemung,"2,358"
 761,Nichols,"2,347"
 762,Sangerfield,"2,327"
-"763
-          
-            TIE",Ripley and Montour,"2,323"
-"764
-          
-            TIE",Frankfort village and Conesus,"2,320"
+763,Ripley and Montour,"2,323"
+764,Frankfort village and Conesus,"2,320"
 765,Groveland,"2,316"
 766,Laurens,"2,311"
 767,Machias,"2,310"
-"768
-          
-            TIE",Buchanan and Byron,"2,302"
+768,Buchanan and Byron,"2,302"
 769,Lyme,"2,299"
 770,Caneadea,"2,294"
 771,Rose,"2,291"
@@ -841,14 +775,10 @@ Rank,City,Population
 774,Springwater,"2,286"
 775,Bristol,"2,284"
 776,Easton,"2,279"
-"777
-          
-            TIE","Cohocton, Falconer, and Russia","2,269"
+777,"Cohocton, Falconer, and Russia","2,269"
 778,Oyster Bay Cove,"2,265"
 779,Freedom,"2,261"
-"780
-          
-            TIE",Roxbury and Brookfield,"2,247"
+780,Roxbury and Brookfield,"2,247"
 781,Milan,"2,245"
 782,Lumberland,"2,243"
 783,Liverpool,"2,242"
@@ -862,29 +792,21 @@ Rank,City,Population
 791,Clifton Springs,"2,209"
 792,Persia,"2,207"
 793,Lake Placid,"2,205"
-"794
-          
-            TIE",Delaware and Bellport,"2,203"
-"795
-          
-            TIE",Highland and Camden village,"2,196"
+794,Delaware and Bellport,"2,203"
+795,Highland and Camden village,"2,196"
 796,Rouses Point,"2,195"
 797,Hartford,"2,193"
 798,North Harmony,"2,192"
 799,Pulaski,"2,186"
 800,Canisteo village,"2,176"
-"801
-          
-            TIE",Amity and Clyde,"2,171"
+801,Amity and Clyde,"2,171"
 802,Fishkill village,"2,166"
 803,Elba,"2,164"
 804,Covert,"2,163"
 805,Westhampton Beach,"2,150"
 806,Groton village,"2,145"
 807,Johnsburg,"2,143"
-"808
-          
-            TIE",Fowler and Ira,"2,142"
+808,Fowler and Ira,"2,142"
 809,Newport,"2,140"
 810,Urbana,"2,122"
 811,Harmony,"2,121"
@@ -893,9 +815,7 @@ Rank,City,Population
 814,Worcester,"2,112"
 815,Lima village,"2,094"
 816,Churchville,"2,091"
-"817
-          
-            TIE",Morristown and Leicester,"2,082"
+817,Morristown and Leicester,"2,082"
 818,Caledonia village,"2,080"
 819,Providence,"2,075"
 820,Hume,"2,073"
@@ -905,25 +825,17 @@ Rank,City,Population
 824,Caton,"2,049"
 825,Angola,"2,046"
 826,Stockton,"2,044"
-"827
-          
-            TIE",Crown Point and Dolgeville,"2,042"
-"828
-          
-            TIE","Marathon, Parishville, and Waterford village","2,038"
+827,Crown Point and Dolgeville,"2,042"
+828,"Marathon, Parishville, and Waterford village","2,038"
 829,Canajoharie village,"2,037"
 830,Bolivar,"2,029"
 831,Princetown,"2,024"
 832,Augusta,"2,021"
-"833
-          
-            TIE",Boonville village and Old Brookville,"2,020"
+833,Boonville village and Old Brookville,"2,020"
 834,Upper Nyack,"2,015"
 835,Root,"2,013"
 836,Bolton,"2,012"
-"837
-          
-            TIE","Gainesville, Scottsville, and Albion town","2,009"
+837,"Gainesville, Scottsville, and Albion town","2,009"
 838,Fabius,"2,006"
 839,Stamford,"2,000"
 840,Pawling village,"1,995"
@@ -934,17 +846,11 @@ Rank,City,Population
 845,Prattsburgh,"1,983"
 846,New Albion,"1,981"
 847,Hadley,"1,976"
-"848
-          
-            TIE",Red Hook village and Philadelphia,"1,975"
-"849
-          
-            TIE",Java and Stockbridge,"1,972"
+848,Red Hook village and Philadelphia,"1,975"
+849,Java and Stockbridge,"1,972"
 850,Marshall,"1,966"
 851,Ashford,"1,961"
-"852
-          
-            TIE",Hartwick and Cambridge,"1,952"
+852,Hartwick and Cambridge,"1,952"
 853,Friendship,"1,944"
 854,Laurel Hollow,"1,940"
 855,Germantown,"1,936"
@@ -958,77 +864,47 @@ Rank,City,Population
 863,Nelson,"1,890"
 864,Dryden village,"1,887"
 865,Middlefield,"1,882"
-"866
-          
-            TIE",Lattingtown and Olean town,"1,881"
+866,Lattingtown and Olean town,"1,881"
 867,Schroon,"1,880"
 868,Locke,"1,879"
-"869
-          
-            TIE",Huron and Russell,"1,872"
+869,Huron and Russell,"1,872"
 870,Watkins Glen,"1,863"
 871,Central Square,"1,862"
-"872
-          
-            TIE",Youngstown and New Hartford village,"1,859"
+872,Youngstown and New Hartford village,"1,859"
 873,Potter,"1,858"
 874,Phelps village,"1,851"
 875,Barre,"1,843"
 876,Ellenburg,"1,842"
-"877
-          
-            TIE",Butler and Dansville,"1,835"
-"878
-          
-            TIE","Western, Throop, and Hillsdale","1,831"
+877,Butler and Dansville,"1,835"
+878,"Western, Throop, and Hillsdale","1,831"
 879,Salisbury,"1,830"
 880,Rensselaerville,"1,826"
 881,Genoa,"1,815"
 882,Lindley,"1,813"
 883,Oakfield village,"1,812"
 884,Berlin,"1,808"
-"885
-          
-            TIE",Erin and Esperance,"1,806"
-"886
-          
-            TIE",Lincoln and Watson,"1,802"
+885,Erin and Esperance,"1,806"
+886,Lincoln and Watson,"1,802"
 887,Webb,"1,797"
 888,Cooperstown,"1,794"
 889,Conquest,"1,791"
-"890
-          
-            TIE",Cambridge village and Weedsport,"1,788"
-"891
-          
-            TIE",Upper Brookville and Hebron,"1,786"
-"892
-          
-            TIE",Valatie and Conewango,"1,785"
-"893
-          
-            TIE",Gerry and Colchester,"1,782"
-"894
-          
-            TIE",Bethany and West Carthage,"1,780"
-"895
-          
-            TIE",Carlisle and Painted Post,"1,768"
+890,Cambridge village and Weedsport,"1,788"
+891,Upper Brookville and Hebron,"1,786"
+892,Valatie and Conewango,"1,785"
+893,Gerry and Colchester,"1,782"
+894,Bethany and West Carthage,"1,780"
+895,Carlisle and Painted Post,"1,768"
 896,Remsen,"1,761"
 897,Maryland,"1,760"
 898,Westville,"1,757"
-"899
-          
-            TIE",Stillwater village and Holley,"1,754"
+899,Stillwater village and Holley,"1,754"
 900,Clymer,"1,753"
 901,Oppenheim,"1,751"
 902,Marcellus village,"1,745"
 903,Madrid,"1,744"
 904,Chateaugay,"1,743"
 905,South Floral Park,"1,741"
-"906
-          
-            TIE",Morris and Village of the Branch,"1,735"
+906,Morris and Village of the Branch,"1,735"
 907,Middleport,"1,729"
 908,Jackson,"1,723"
 909,Reading,"1,719"
@@ -1040,47 +916,27 @@ Rank,City,Population
 915,Port Dickinson,"1,699"
 916,Sharon,"1,697"
 917,West Turin,"1,692"
-"918
-          
-            TIE",Dundee and Dayton,"1,690"
+918,Dundee and Dayton,"1,690"
 919,Hornby,"1,684"
-"920
-          
-            TIE",Clinton village and Antwerp,"1,683"
+920,Clinton village and Antwerp,"1,683"
 921,Wayland village,"1,680"
 922,Ephratah,"1,677"
-"923
-          
-            TIE",Altamont and Little Valley,"1,675"
-"924
-          
-            TIE",Fenner and Canadice,"1,668"
+923,Altamont and Little Valley,"1,675"
+924,Fenner and Canadice,"1,668"
 925,Sodus village,"1,667"
-"926
-          
-            TIE",Woodhull and Butternuts,"1,665"
+926,Woodhull and Butternuts,"1,665"
 927,North Norwich,"1,664"
 928,Quogue,"1,662"
 929,Varick,"1,656"
 930,Ledyard,"1,655"
-"931
-          
-            TIE",Franklinville village and Victory,"1,652"
-"932
-          
-            TIE",Catharine and Greenwich village,"1,651"
-"933
-          
-            TIE",Minetto and St. Johnsville village,"1,643"
+931,Franklinville village and Victory,"1,652"
+932,Catharine and Greenwich village,"1,651"
+933,Minetto and St. Johnsville village,"1,643"
 934,South Bristol,"1,641"
 935,Manchester village,"1,640"
-"936
-          
-            TIE",Tyrone and Belfast,"1,637"
+936,Tyrone and Belfast,"1,637"
 937,Montour Falls,"1,635"
-"938
-          
-            TIE","Adams village, Genesee, and Morrisville","1,633"
+938,"Adams village, Genesee, and Morrisville","1,633"
 939,Savannah,"1,632"
 940,Gallatin,"1,628"
 941,Austerlitz,"1,625"
@@ -1092,9 +948,7 @@ Rank,City,Population
 947,Alabama,"1,602"
 948,Spafford,"1,588"
 949,Athens village,"1,586"
-"950
-          
-            TIE",Seward and Sparta,"1,583"
+950,Seward and Sparta,"1,583"
 951,Nanticoke,"1,581"
 952,Leyden,"1,572"
 953,Canaan,"1,570"
@@ -1103,38 +957,26 @@ Rank,City,Population
 956,Addison village,"1,561"
 957,Wolcott village,"1,556"
 958,Norwood,"1,552"
-"959
-          
-            TIE",Kortright and Allegany village,"1,544"
+959,Kortright and Allegany village,"1,544"
 960,Barrington,"1,541"
 961,Van Etten,"1,539"
-"962
-          
-            TIE","Fort Covington, Scipio, and Mexico village","1,531"
+962,"Fort Covington, Scipio, and Mexico village","1,531"
 963,Colton,"1,530"
 964,Chatham village,"1,529"
 965,Charlotte,"1,527"
 966,Head of the Harbor,"1,520"
 967,Perrysburg,"1,518"
-"968
-          
-            TIE",Cuba village and East Hampton village,"1,517"
-"969
-          
-            TIE",Wright and Coventry,"1,516"
+968,Cuba village and East Hampton village,"1,517"
+969,Wright and Coventry,"1,516"
 970,Almond,"1,512"
 971,Ashland,"1,510"
 972,Bridgewater,"1,507"
-"973
-          
-            TIE",Ellington and Little Falls town,"1,497"
+973,Ellington and Little Falls town,"1,497"
 974,Constable,"1,486"
 975,Meredith,"1,484"
 976,Lodi,"1,482"
 977,Berkshire,"1,480"
-"978
-          
-            TIE",Castleton-on-Hudson and Forestport,"1,477"
+978,Castleton-on-Hudson and Forestport,"1,477"
 979,Fairfield,"1,475"
 980,Waterville,"1,473"
 981,Livonia village,"1,472"
@@ -1142,16 +984,10 @@ Rank,City,Population
 983,Greene village,"1,463"
 984,Millbrook,"1,455"
 985,Black Brook,"1,453"
-"986
-          
-            TIE",Plandome and Cochecton,"1,448"
-"987
-          
-            TIE",Huntington Bay and St. Armand,"1,446"
+986,Plandome and Cochecton,"1,448"
+987,Huntington Bay and St. Armand,"1,446"
 988,Litchfield,"1,444"
-"989
-          
-            TIE",Mayville and Harpersfield,"1,442"
+989,Mayville and Harpersfield,"1,442"
 990,Ancram,"1,440"
 991,Henderson,"1,438"
 992,Deposit,"1,427"
@@ -1167,9 +1003,7 @@ Rank,City,Population
 "1,002",Junius,"1,388"
 "1,003",Deposit village,"1,387"
 "1,004",Broadalbin village,"1,384"
-"1,005
-          
-            TIE",Middlesex and Philmont,"1,377"
+"1,005",Middlesex and Philmont,"1,377"
 "1,006",Petersburgh,"1,372"
 "1,007",Schuylerville,"1,370"
 "1,008",Indian Lake,"1,363"
@@ -1180,25 +1014,19 @@ Rank,City,Population
 "1,013",Springfield,"1,346"
 "1,014",Middlebury,"1,339"
 "1,015",Williamstown,"1,335"
-"1,016
-          
-            TIE",Edinburg and Jefferson,"1,333"
+"1,016",Edinburg and Jefferson,"1,333"
 "1,017",Oxford village,"1,330"
 "1,018",Bellmont,"1,327"
 "1,019",Lebanon,"1,326"
 "1,020",Westport,"1,320"
 "1,021",Roslyn Estates,"1,318"
 "1,022",Martinsburg,"1,316"
-"1,023
-          
-            TIE",Ellicottville and Oriskany,"1,315"
+"1,023",Ellicottville and Oriskany,"1,315"
 "1,024",Pittsfield,"1,312"
 "1,025",Fine,"1,304"
 "1,026",Torrey,"1,299"
 "1,027",Lewis,"1,293"
-"1,028
-          
-            TIE",Tompkins and Hewlett Harbor,"1,290"
+"1,028",Tompkins and Hewlett Harbor,"1,290"
 "1,029",Brocton,"1,286"
 "1,030",Florence,"1,284"
 "1,031",Orangeville,"1,283"
@@ -1207,18 +1035,12 @@ Rank,City,Population
 "1,034",DeRuyter,"1,276"
 "1,035",Angelica,"1,272"
 "1,036",Caroga,"1,264"
-"1,037
-          
-            TIE",Pulteney and Hammond,"1,258"
+"1,037",Pulteney and Hammond,"1,258"
 "1,038",Smithville,"1,255"
 "1,039",Bombay,"1,254"
-"1,040
-          
-            TIE",Thurston and Covington,"1,253"
+"1,040",Thurston and Covington,"1,253"
 "1,041",Bainbridge village,"1,251"
-"1,042
-          
-            TIE",Wilson village and North Collins village,"1,247"
+"1,042",Wilson village and North Collins village,"1,247"
 "1,043",Amboy,"1,245"
 "1,044",Leon,"1,244"
 "1,045",Dunkirk town,"1,240"
@@ -1238,15 +1060,11 @@ Rank,City,Population
 "1,059",Rodman,"1,197"
 "1,060",Jordan,"1,192"
 "1,061",Greig,"1,179"
-"1,062
-          
-            TIE",Montezuma and Vernon village,"1,177"
+"1,062",Montezuma and Vernon village,"1,177"
 "1,063",Brighton,"1,174"
 "1,064",Bellerose,"1,173"
 "1,065",Napoli,"1,171"
-"1,066
-          
-            TIE","Lyonsdale, Kinderhook village, and Champlain village","1,170"
+"1,066","Lyonsdale, Kinderhook village, and Champlain village","1,170"
 "1,067",Nunda village,"1,169"
 "1,068",North Haven,"1,162"
 "1,069",Fremont town,"1,161"
@@ -1254,9 +1072,7 @@ Rank,City,Population
 "1,071",Franklin town,"1,150"
 "1,072",Keene,"1,144"
 "1,073",Wilmington,"1,139"
-"1,074
-          
-            TIE",Niles and Hamden,"1,137"
+"1,074",Niles and Hamden,"1,137"
 "1,075",Wheeler,"1,136"
 "1,076",Middleburgh village,"1,131"
 "1,077",Smithfield,"1,127"
@@ -1264,12 +1080,8 @@ Rank,City,Population
 "1,079",Hagaman,"1,117"
 "1,080",Andes,"1,114"
 "1,081",Gilboa,"1,111"
-"1,082
-          
-            TIE",South Corning and Summerhill,"1,108"
-"1,083
-          
-            TIE",Hopkinton and Eagle,"1,105"
+"1,082",South Corning and Summerhill,"1,108"
+"1,083",Hopkinton and Eagle,"1,105"
 "1,084",Nassau village,"1,103"
 "1,085",Port Byron,"1,101"
 "1,086",Italy,"1,099"
@@ -1280,9 +1092,7 @@ Rank,City,Population
 "1,091",New Lisbon,"1,084"
 "1,092",Steuben,"1,081"
 "1,093",Rushford,"1,079"
-"1,094
-          
-            TIE",Orwell and Scott,"1,077"
+"1,094",Orwell and Scott,"1,077"
 "1,095",Union Springs,"1,075"
 "1,096",Hermon,"1,074"
 "1,097",Farmersville,"1,073"
@@ -1297,9 +1107,7 @@ Rank,City,Population
 "1,106",Richfield Springs,"1,050"
 "1,107",Wirt,"1,049"
 "1,108",Burlington,"1,045"
-"1,109
-          
-            TIE",Delevan and Richford,"1,043"
+"1,109",Delevan and Richford,"1,043"
 "1,110",Stamford village,"1,040"
 "1,111",Cherry Creek,"1,037"
 "1,112",Burns,"1,036"
@@ -1311,15 +1119,9 @@ Rank,City,Population
 "1,118",Tyre,"1,013"
 "1,119",Tivoli,"1,012"
 "1,120",Bolivar village,"1,010"
-"1,121
-          
-            TIE",Wayne and Plandome Heights,"1,009"
-"1,122
-          
-            TIE",Arkwright and Lake George village,"1,008"
-"1,123
-          
-            TIE",Mina and French Creek,"1,007"
+"1,121",Wayne and Plandome Heights,"1,009"
+"1,122",Arkwright and Lake George village,"1,008"
+"1,123",Mina and French Creek,"1,007"
 "1,124",Dexter,"1,004"
 "1,125",Truxton,997
 "1,126",Northville,993
@@ -1335,51 +1137,33 @@ Rank,City,Population
 "1,136",Dickinson town,965
 "1,137",Waverly,963
 "1,138",Ohio,962
-"1,139
-          
-            TIE",Cattaraugus and Whitney Point,960
+"1,139",Cattaraugus and Whitney Point,960
 "1,140",Danube,953
 "1,141",Waddington village,937
 "1,142",Kingston town,933
 "1,143",Naples village,931
-"1,144
-          
-            TIE",Brownville village and Hillburn,930
+"1,144",Brownville village and Hillburn,930
 "1,145",Centerville,929
 "1,146",Newark Valley village,928
-"1,147
-          
-            TIE",Alexandria Bay and Lorraine,924
+"1,147",Alexandria Bay and Lorraine,924
 "1,148",Plainfield,922
 "1,149",Elbridge village,921
 "1,150",Schoharie village,916
 "1,151",Macomb,912
-"1,152
-          
-            TIE",Cuyler and Hancock village,908
+"1,152",Cuyler and Hancock village,908
 "1,153",Windsor village,907
 "1,154",Tully village,904
-"1,155
-          
-            TIE",Poquott and Millerton,903
+"1,155",Poquott and Millerton,903
 "1,156",Cincinnatus,902
 "1,157",New Berlin village,901
 "1,158",Cameron,899
 "1,159",Columbus,898
-"1,160
-          
-            TIE",Lake Pleasant and Woodsburgh,897
+"1,160",Lake Pleasant and Woodsburgh,897
 "1,161",Preston,895
-"1,162
-          
-            TIE",Willet and Fremont,894
+"1,162",Willet and Fremont,894
 "1,163",Old Field,893
-"1,164
-          
-            TIE",Marathon village and Portville village,892
-"1,165
-          
-            TIE",Andover village and Sylvan Beach,890
+"1,164",Marathon village and Portville village,892
+"1,165",Andover village and Sylvan Beach,890
 "1,166",Jewett,879
 "1,167",Harford,876
 "1,168",Otego village,875
@@ -1398,9 +1182,7 @@ Rank,City,Population
 "1,181",Day,819
 "1,182",Baldwin,812
 "1,183",Avoca village,809
-"1,184
-          
-            TIE",Forestburgh and Belle Terre,808
+"1,184",Forestburgh and Belle Terre,808
 "1,185",Bradford,806
 "1,186",Westford,804
 "1,187",Rossie,799
@@ -1415,17 +1197,11 @@ Rank,City,Population
 "1,196",Candor village,786
 "1,197",Alma,781
 "1,198",Mayfield village,780
-"1,199
-          
-            TIE",Otto and Greenwood,777
-"1,200
-          
-            TIE",Prattsville and Earlville,774
+"1,199",Otto and Greenwood,777
+"1,200",Prattsville and Earlville,774
 "1,201",Minerva,773
 "1,202",Lyndonville,771
-"1,203
-          
-            TIE",Sagaponack and Lexington,770
+"1,203",Sagaponack and Lexington,770
 "1,204",Turin,768
 "1,205",Freetown,767
 "1,206",Portage,763
@@ -1440,22 +1216,16 @@ Rank,City,Population
 "1,215",Ischua,736
 "1,216",Chateaugay village,735
 "1,217",West Winfield,733
-"1,218
-          
-            TIE",Cleveland and North Hornell,732
+"1,218",Cleveland and North Hornell,732
 "1,219",Ossian,724
 "1,220",Angelica village,723
 "1,221",Heuvelton,722
 "1,222",Spencer village,719
 "1,223",Stark,714
-"1,224
-          
-            TIE",Cohocton village and Humphrey,703
+"1,224",Cohocton village and Humphrey,703
 "1,225",Cape Vincent village,699
 "1,226",Roseboom,690
-"1,227
-          
-            TIE",Silver Springs and Corfu,689
+"1,227",Silver Springs and Corfu,689
 "1,228",Conesville,687
 "1,229",Lyndon,685
 "1,230",Wells,683
@@ -1467,9 +1237,7 @@ Rank,City,Population
 "1,236",Fonda,668
 "1,237",Pitcher,667
 "1,238",Victory village,666
-"1,239
-          
-            TIE","Bovina, Oriskany Falls, and Coldspring",658
+"1,239","Bovina, Oriskany Falls, and Coldspring",658
 "1,240",Lacona,657
 "1,241",Clinton,652
 "1,242",Rushville,651
@@ -1487,25 +1255,19 @@ Rank,City,Population
 "1,254",Aurora village,607
 "1,255",Van Etten village,601
 "1,256",Interlaken,595
-"1,257
-          
-            TIE",Asharoken and Unionville,592
+"1,257",Asharoken and Unionville,592
 "1,258",Oneida Castle,586
 "1,259",Hammondsport,583
 "1,260",Sinclairville,579
 "1,261",Barker village,575
-"1,262
-          
-            TIE",Cassadaga and Wampsville,573
+"1,262",Cassadaga and Wampsville,573
 "1,263",Lyons Falls,570
 "1,264",Hewlett Neck,569
 "1,265",Tannersville,568
 "1,266",Putnam,567
 "1,267",Shoreham,561
 "1,268",East Nassau,559
-"1,269
-          
-            TIE",Hartsville and Elba village,558
+"1,269",Hartsville and Elba village,558
 "1,270",Nelliston,555
 "1,271",Port Leyden,554
 "1,272",Bleecker,545
@@ -1517,24 +1279,16 @@ Rank,City,Population
 "1,278",Ovid village,534
 "1,279",Schaghticoke village,527
 "1,280",Granger,519
-"1,281
-          
-            TIE",Alexander village and Harrisville,518
-"1,282
-          
-            TIE",Cato village and Odessa,517
+"1,281",Alexander village and Harrisville,518
+"1,282",Cato village and Odessa,517
 "1,283",Pharsalia,516
 "1,284",Margaretville,514
 "1,285",Valley Falls,510
 "1,286",Cayuta,508
 "1,287",Antwerp village,506
-"1,288
-          
-            TIE",Boylston and Freeville,498
+"1,288",Boylston and Freeville,498
 "1,289",Red Creek,495
-"1,290
-          
-            TIE",Allen and Hewlett Bay Park,494
+"1,290",Allen and Hewlett Bay Park,494
 "1,291",Denning,493
 "1,292",Wellsburg,490
 "1,293",Grove,489
@@ -1547,14 +1301,10 @@ Rank,City,Population
 "1,300",Salamanca town,470
 "1,301",Cherry Valley village,467
 "1,302",Poland village,464
-"1,303
-          
-            TIE",Canaseraga and Fort Ann village,460
+"1,303",Canaseraga and Fort Ann village,460
 "1,304",Nichols village,457
 "1,305",Munnsville,454
-"1,306
-          
-            TIE",Taylor and Glen Park,452
+"1,306",Taylor and Glen Park,452
 "1,307",Parish village,447
 "1,308",Brushton,443
 "1,309",Leicester village,440
@@ -1567,23 +1317,17 @@ Rank,City,Population
 "1,316",Hope,413
 "1,317",Cherry Creek village,409
 "1,318",DeRuyter village,408
-"1,319
-          
-            TIE",Centre Island and Middleville,407
+"1,319",Centre Island and Middleville,407
 "1,320",Speculator,406
 "1,321",Genesee Falls,402
-"1,322
-          
-            TIE",Richburg and Fort Johnson,401
+"1,322",Richburg and Fort Johnson,401
 "1,323",Morristown village,398
 "1,324",Farnham,381
 "1,325",Wyoming,377
 "1,326",Decatur,374
 "1,327",Jeffersonville,368
 "1,328",Milford village,367
-"1,329
-          
-            TIE",Rensselaer Falls and Lincklaen,361
+"1,329",Rensselaer Falls and Lincklaen,361
 "1,330",Inlet,355
 "1,331",Hobart,351
 "1,332",Lisle village,348
@@ -1591,23 +1335,17 @@ Rank,City,Population
 "1,334",West Union,343
 "1,335",Clayville,339
 "1,336",Delanson,335
-"1,337
-          
-            TIE",Ward and Castorland,334
+"1,337",Ward and Castorland,334
 "1,338",Santa Clara,332
 "1,339",Burdett,331
 "1,340",Pinckney,313
 "1,341",Madison village,311
 "1,342",Fabius village,309
-"1,343
-          
-            TIE","Blenheim, Gilbertsville, and German",308
+"1,343","Blenheim, Gilbertsville, and German",308
 "1,344",Bemus Point,306
 "1,345",Millport,301
 "1,346",Mannsville,297
-"1,347
-          
-            TIE","Constableville, Dresden village, and Cove Neck",293
+"1,347","Constableville, Dresden village, and Cove Neck",293
 "1,348",Arietta,292
 "1,349",Argyle village,289
 "1,350",Meridian,287
@@ -1617,23 +1355,17 @@ Rank,City,Population
 "1,354",Franklin village,258
 "1,355",Ellicottville village,256
 "1,356",Lodi village,254
-"1,357
-          
-            TIE","North Hudson, Cold Brook, and South Valley",250
+"1,357","North Hudson, Cold Brook, and South Valley",250
 "1,358",Halcott,249
 "1,359",Grand View-on-Hudson,246
 "1,360",Deferiet,245
 "1,361",Osceola,243
 "1,362",Richville,234
-"1,363
-          
-            TIE",Hardenburgh and Benson,221
+"1,363",Hardenburgh and Benson,221
 "1,364",Gainesville village,211
 "1,365",Fleischmanns,210
 "1,366",Worth,198
-"1,367
-          
-            TIE",Smyrna village and Turin village,197
+"1,367",Smyrna village and Turin village,197
 "1,368",Birdsall,190
 "1,369",Ellisburg village,186
 "1,370",Laurens village,185
