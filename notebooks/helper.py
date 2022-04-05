@@ -3,7 +3,7 @@ import sklearn.metrics as metrics
 import numpy as np
 
 
-def plot_feature_importance(model, title="Feature importances using MDI"):
+def plot_feature_importance(model, title="Feature importances using MDI", save_fig=None):
     features = None
     if (getattr(model, 'coef_', None) is not None):
         features = model.coef_
@@ -15,6 +15,8 @@ def plot_feature_importance(model, title="Feature importances using MDI"):
     ax.set_title(title)
     ax.set_xticklabels(model.feature_names_in_, rotation=90)
     ax.set_ylabel("Mean decrease in impurity")
+    if save_fig:
+        plt.savefig(f"./plots/{save_fig}.png")
     fig.tight_layout()
 
 
