@@ -10,13 +10,14 @@ def plot_feature_importance(model, title="Feature importances using MDI", save_f
     else:
         features = model.feature_importances_
 
-    fig, ax = plt.subplots(figsize=(15, 8))
+    fig, ax = plt.subplots(figsize=(15, 12))
     ax.bar(model.feature_names_in_, features)
     ax.set_title(title)
     ax.set_xticklabels(model.feature_names_in_, rotation=90)
     ax.set_ylabel("Mean decrease in impurity")
     if save_fig:
         plt.savefig(f"./plots/{save_fig}.png")
+        plt.savefig(f"./plots/{save_fig}.jpeg")
     fig.tight_layout()
 
 
