@@ -1,20 +1,28 @@
 import matplotlib.pyplot as plt
 import sklearn.metrics as metrics
 import numpy as np
+import matplotlib.colors as colors
+import mapclassify
+import contextily as cx
+import geopandas as gpd
+import pandas as pd
 
 
-def plot_feature_importance(model, title="Feature importances using MDI"):
+def plot_feature_importance(model, title="Feature importances using MDI", save_fig=None):
     features = None
     if (getattr(model, 'coef_', None) is not None):
         features = model.coef_
     else:
         features = model.feature_importances_
 
-    fig, ax = plt.subplots(figsize=(15, 8))
+    fig, ax = plt.subplots(figsize=(15, 12))
     ax.bar(model.feature_names_in_, features)
     ax.set_title(title)
     ax.set_xticklabels(model.feature_names_in_, rotation=90)
     ax.set_ylabel("Mean decrease in impurity")
+    if save_fig:
+        plt.savefig(f"./plots/{save_fig}.png")
+        plt.savefig(f"./plots/{save_fig}.jpeg")
     fig.tight_layout()
 
 
@@ -81,3 +89,73 @@ def residual(model, subset_test, target):
     fig, ax = plt.subplots(figsize=(10, 5))
     ax.hist(diff, bins=50)
     fig.show()
+
+
+def plot_geo_data(df, col_name, ax, fig, title="", show_base_cbar=False, show_base_map=False, cmap='Reds'):
+    k = 1600  # I find that the more colors, the smoother the viz becomes as data points are spread across gradients
+    cmap = cmap
+    figsize = (20, 15)
+    scheme = 'Quantiles'
+    crs = {'init': 'epsg:4326'}
+
+    subset = df.copy()
+    subset['pop_density'] = subset['POP2020']/subset['CALC_SQ_MI']
+
+    subset = subset.to_crs(crs)
+    subset.plot(column=col_name, cmap=cmap, figsize=figsize, ax=ax,
+                scheme=scheme, k=k, legend=False)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['bottom'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    # Adding Colorbar for legibility
+
+    # normalize color
+    vmin, vmax, vcenter = subset[col_name].min(
+    ), subset[col_name].max(), subset[col_name].mean()
+    divnorm = colors.TwoSlopeNorm(vmin=vmin, vcenter=vcenter, vmax=vmax)
+    # create a normalized colorbar
+    if show_base_cbar:
+        cbar = plt.cm.ScalarMappable(norm=divnorm, cmap=cmap)
+        fig.colorbar(cbar, ax=ax)
+    ax.set(title=title,
+           ylabel="Lattitude", xlabel="Longitude")
+    if show_base_map:
+        cx.add_basemap(ax, crs=crs, source=cx.providers.Stamen.TonerLite)
+
+
+def prepare_df_for_geo_plot(df, model, target, cols,  date='2022-01-01'):
+    # Plot Prediction VS ACtual of County overload on a day.
+    temp = df.copy()
+    X = temp[cols].drop(target, axis=1)
+    temp['predicted'] = model.predict(X)
+    temp['predicted_availability'] = temp['predicted']/temp['Total Beds']
+    temp['actual_availability'] = temp['overload-14day']/temp['Total Beds']
+    temp.replace([np.inf, -np.inf], 0, inplace=True)
+    temp['class_predicted'] = (
+        temp['predicted_availability'] < 0.3).astype(int)
+    temp['class_actual'] = (temp['actual_availability'] < 0.3).astype(int)
+
+    temp1 = temp.groupby(by=['county', 'date']).sum()
+    temp1 = temp1[['class_actual', 'class_predicted']]
+
+    temp2 = temp.reset_index().groupby(by=['county', 'date']).count()
+    temp2 = temp2[['Facility Name']]
+
+    joined = temp1.join(temp2)
+    joined = joined.rename(
+        columns={'Facility Name': 'total_hsp', 'class_actual': 'actual_overloaded_hsp', 'class_predicted': 'predicted_overloaded_hsp'})
+    joined['actual_overload_%'] = joined['actual_overloaded_hsp'] / \
+        joined['total_hsp']
+    joined['predicted_overload_%'] = joined['predicted_overloaded_hsp'] / \
+        joined['total_hsp']
+
+    # shape file
+    street_map = gpd.read_file('../data/NYS_Civil_Boundaries.shp.zip',)
+
+    df_temp = joined.copy()
+    df_temp = df_temp[df_temp.index.get_level_values(
+        'date') == date].reset_index()
+    df_temp = df_temp.rename(columns={'county': 'COUNTY'})
+    df_temp = pd.merge(street_map, df_temp, on='COUNTY', how='left')
+    return df_temp
