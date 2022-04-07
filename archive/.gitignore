@@ -1,0 +1,6 @@
+/notebooks/plots/
+/temp/
+/.DS_Store
+/notebooks/.DS_Store
+.DS_Store
+/notebooks/__pycache__*
