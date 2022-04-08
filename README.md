@@ -29,6 +29,14 @@ Todo:
 2. A link in Readme pointing to the Folder
 3. Important Analysis plots/one-liner
 
+
+### Hospital Distribution
+Visualization of hospital distribution across the state of New York and population density
+[Link to notebook](https://github.com/AnishaMathur/cmpt-733-term-project/blob/main/EDA/Hospitals.ipynb)
+
+<img width="1187" alt="Screenshot 2022-04-08 at 2 00 45 PM" src="https://user-images.githubusercontent.com/29632821/162529572-92995319-1141-4ef0-a4c1-cb02fce5f75a.png">
+
+
 ## Data Integrations
 
 Todo:
