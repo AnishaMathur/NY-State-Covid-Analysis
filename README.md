@@ -1,7 +1,3 @@
-# Covid Analysis for New York State
-
-install git-lfs from [here](https://git-lfs.github.com/)
-
 ## Introduction
 
 This project showcases COVID analysis for the state of New York. We draw from different data sources like vaccinations, cases, deaths, hospitalizations to provide insights to public health authorities to prepare better for what is to come.
@@ -17,6 +13,13 @@ This project showcases COVID analysis for the state of New York. We draw from di
 | New York State Geographic Data      |             https://gis.ny.gov             |
 | US Region Mobility Data             |    https://google.com/covid19/mobility/    |
 | County Wise Cases And Deaths        | https://github.com/CSSEGISandData/COVID-19 |
+
+## Install dependencies
+
+```
+pip3 install -r requirements.txt 
+```
+install git-lfs from [here](https://git-lfs.github.com/)
 
 ## Exploratory Data Analysis
 
