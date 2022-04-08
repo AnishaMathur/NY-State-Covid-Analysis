@@ -159,3 +159,50 @@ def prepare_df_for_geo_plot(df, model, target, cols,  date='2022-01-01'):
     df_temp = df_temp.rename(columns={'county': 'COUNTY'})
     df_temp = pd.merge(street_map, df_temp, on='COUNTY', how='left')
     return df_temp
+
+
+def prepare_input_data(df, train_start_date, train_end_date, test_start_date, test_end_date,
+                        features, features_diff, nshift=4, forecast=14):
+
+    subset = df.copy()
+    subset['day_of_week'] = subset.index.get_level_values('date').dayofweek
+    subset['day_of_month'] = subset.index.get_level_values('date').day
+    subset['overload'] = subset['Number of Beds Available'] + \
+        subset['Number of ICU Beds Available'] - subset['Patients Newly Admitted']
+
+    # diff column with difference between yesterday and day
+    diff_cols = []
+    for i in range(1, nshift):
+        subset.loc[:, 'overload_T-' +
+                str(i)] = subset.groupby(level=0)['overload'].shift(i)
+        subset.loc[:, 'overload_T-' +
+                str(i) + '_diff'] = subset.groupby(level=0)['overload_T-'+str(i)].diff()
+        diff_cols.append('overload_T-' +
+                        str(i))
+        diff_cols.append('overload_T-'+str(i) + '_diff')
+
+    for col in features_diff:
+        subset.loc[:, col+'_diff'] = subset.groupby(level=0)[col].diff()
+        # diff_cols.append(col)
+        diff_cols.append(col+'_diff')
+
+    # overload days in future
+    subset.loc[:, f'overload-{forecast}day'] = subset.groupby(level=0)['overload'].shift(forecast)
+    # dropping NAs
+    subset = subset.dropna()
+
+    target = f'overload-{forecast}day'
+    cols = features + diff_cols
+
+    subset_temp_test = subset[(
+    subset.index.get_level_values('date') > test_start_date)]
+
+
+    subset = subset[cols]
+
+    # subset date range
+    subset_test = subset[(subset.index.get_level_values('date') > test_start_date) & (subset.index.get_level_values('date') <= test_end_date)]
+
+    subset = subset[(subset.index.get_level_values('date') >= train_start_date) & (subset.index.get_level_values('date') <= train_end_date)]
+
+    return subset, subset_test, target, subset_temp_test, cols
