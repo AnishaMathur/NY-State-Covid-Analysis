@@ -151,7 +151,7 @@ def prepare_df_for_geo_plot(df, model, target, cols,  date='2022-01-01'):
         joined['total_hsp']
 
     # shape file
-    street_map = gpd.read_file('../data/NYS_Civil_Boundaries.shp.zip',)
+    street_map = gpd.read_file('../data/raw_datasets/NYS_Civil_Boundaries.shp.zip',)
 
     df_temp = joined.copy()
     df_temp = df_temp[df_temp.index.get_level_values(
@@ -183,7 +183,7 @@ def prepare_input_data(df, train_start_date, train_end_date, test_start_date, te
 
     for col in features_diff:
         subset.loc[:, col+'_diff'] = subset.groupby(level=0)[col].diff()
-        # diff_cols.append(col)
+        diff_cols.append(col)
         diff_cols.append(col+'_diff')
 
     # overload days in future
