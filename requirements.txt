@@ -1,0 +1,9 @@
+dataprep
+pandas
+numpy
+sklearn
+geopandas
+matplotlib
+shapely
+contextily
+mapclassify
