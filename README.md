@@ -81,8 +81,13 @@ Todo:
 This repo is organized in the following way:
 
 The ``data`` folder contains the raw and processed datasets.
+
 The ``EDA`` folder contains the notebooks associated with the EDA performed.
+
 The ``integration`` folder contains the scripts used for integrating the data sources.
+
 The `` analysis`` folder contains notebooks for the county-wise analysis.
+
 The ``model`` folder contains the notebook with the final version of the model.
+
 The ``archive`` folder contains old versions of the notebooks.
