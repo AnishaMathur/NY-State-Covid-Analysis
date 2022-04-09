@@ -19,10 +19,10 @@ def plot_feature_importance(model, title="Feature importances using MDI", save_f
     ax.bar(model.feature_names_in_, features)
     ax.set_title(title)
     ax.set_xticklabels(model.feature_names_in_, rotation=90)
-    ax.set_ylabel("Mean decrease in impurity")
+    plt.axhline(y=0, color=".5")
     if save_fig:
-        plt.savefig(f"./plots/{save_fig}.png")
-        plt.savefig(f"./plots/{save_fig}.jpeg")
+        plt.savefig(f"../notebooks/plots/{save_fig}.png")
+        plt.savefig(f"../notebooks/plots/{save_fig}.jpeg")
     fig.tight_layout()
 
 
@@ -118,8 +118,8 @@ def plot_geo_data(df, col_name, ax, fig, title="", show_base_cbar=False, show_ba
     if show_base_cbar:
         cbar = plt.cm.ScalarMappable(norm=divnorm, cmap=cmap)
         fig.colorbar(cbar, ax=ax)
-    ax.set(title=title,
-           ylabel="Lattitude", xlabel="Longitude")
+    ax.set(ylabel="Lattitude", xlabel="Longitude")
+    ax.set_title(title, fontsize=20)
     if show_base_map:
         cx.add_basemap(ax, crs=crs, source=cx.providers.Stamen.TonerLite)
 
@@ -151,7 +151,8 @@ def prepare_df_for_geo_plot(df, model, target, cols,  date='2022-01-01'):
         joined['total_hsp']
 
     # shape file
-    street_map = gpd.read_file('../data/raw_datasets/NYS_Civil_Boundaries.shp.zip',)
+    street_map = gpd.read_file(
+        '../data/raw_datasets/NYS_Civil_Boundaries.shp.zip',)
 
     df_temp = joined.copy()
     df_temp = df_temp[df_temp.index.get_level_values(
@@ -162,23 +163,24 @@ def prepare_df_for_geo_plot(df, model, target, cols,  date='2022-01-01'):
 
 
 def prepare_input_data(df, train_start_date, train_end_date, test_start_date, test_end_date,
-                        features, features_diff, nshift=4, forecast=14):
+                       features, features_diff, nshift=4, forecast=14):
 
     subset = df.copy()
     subset['day_of_week'] = subset.index.get_level_values('date').dayofweek
     subset['day_of_month'] = subset.index.get_level_values('date').day
     subset['overload'] = subset['Number of Beds Available'] + \
-        subset['Number of ICU Beds Available'] - subset['Patients Newly Admitted']
+        subset['Number of ICU Beds Available'] - \
+        subset['Patients Newly Admitted']
 
     # diff column with difference between yesterday and day
     diff_cols = []
     for i in range(1, nshift):
         subset.loc[:, 'overload_T-' +
-                str(i)] = subset.groupby(level=0)['overload'].shift(i)
+                   str(i)] = subset.groupby(level=0)['overload'].shift(i)
         subset.loc[:, 'overload_T-' +
-                str(i) + '_diff'] = subset.groupby(level=0)['overload_T-'+str(i)].diff()
+                   str(i) + '_diff'] = subset.groupby(level=0)['overload_T-'+str(i)].diff()
         diff_cols.append('overload_T-' +
-                        str(i))
+                         str(i))
         diff_cols.append('overload_T-'+str(i) + '_diff')
 
     for col in features_diff:
@@ -187,7 +189,8 @@ def prepare_input_data(df, train_start_date, train_end_date, test_start_date, te
         diff_cols.append(col+'_diff')
 
     # overload days in future
-    subset.loc[:, f'overload-{forecast}day'] = subset.groupby(level=0)['overload'].shift(forecast)
+    subset.loc[:, f'overload-{forecast}day'] = subset.groupby(
+        level=0)['overload'].shift(forecast)
     # dropping NAs
     subset = subset.dropna()
 
@@ -195,14 +198,15 @@ def prepare_input_data(df, train_start_date, train_end_date, test_start_date, te
     cols = features + diff_cols
 
     subset_temp_test = subset[(
-    subset.index.get_level_values('date') > test_start_date)]
-
+        subset.index.get_level_values('date') > test_start_date)]
 
     subset = subset[cols]
 
     # subset date range
-    subset_test = subset[(subset.index.get_level_values('date') > test_start_date) & (subset.index.get_level_values('date') <= test_end_date)]
+    subset_test = subset[(subset.index.get_level_values('date') > test_start_date) & (
+        subset.index.get_level_values('date') <= test_end_date)]
 
-    subset = subset[(subset.index.get_level_values('date') >= train_start_date) & (subset.index.get_level_values('date') <= train_end_date)]
+    subset = subset[(subset.index.get_level_values('date') >= train_start_date) & (
+        subset.index.get_level_values('date') <= train_end_date)]
 
     return subset, subset_test, target, subset_temp_test, cols
