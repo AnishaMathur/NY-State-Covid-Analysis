@@ -67,7 +67,10 @@ Todo:
 #steps to run the model
 ```
 
-Link to notebook
+[Link to notebook](https://github.com/AnishaMathur/cmpt-733-term-project/blob/main/model/ML3.ipynb)
+
+Model predicting (on the left) the county-wise hospital overload 14 days in advance
+<img width="1115" alt="Screenshot 2022-04-08 at 5 13 34 PM" src="https://user-images.githubusercontent.com/29632821/162548545-09dd3096-b2f0-4bf0-bd8e-8e3bd207ded5.png">
 
 ## County-wise Analysis
 
