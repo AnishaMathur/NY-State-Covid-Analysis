@@ -1,6 +1,6 @@
 ## Introduction
 
-This project showcases COVID analysis for the state of New York. We draw from different data sources like vaccinations, cases, deaths, hospitalizations to provide insights to public health authorities to prepare better for what is to come.
+This project showcases COVID analysis for the state of New York. We draw from different data sources like vaccinations, cases, deaths, hospitalizations and mobility data to provide insights to public health authorities to prepare better for what is to come.
 
 ## Data Sources
 
@@ -80,9 +80,7 @@ Todo:
 2. Links to notebooks
 3. one-liners
 
-## Learning
-
-## Repository Organization:
+## Repository Structure:
 This repo is organized in the following way:
 
 The ``data`` folder contains the raw and processed datasets.
