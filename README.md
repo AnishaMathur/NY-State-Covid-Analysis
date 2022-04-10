@@ -1,6 +1,6 @@
 ## Introduction
 
-This project showcases COVID analysis for the state of New York. We draw from different data sources like vaccinations, cases, deaths, hospitalizations to provide insights to public health authorities to prepare better for what is to come.
+This project showcases COVID analysis for the state of New York. We draw from different data sources like vaccinations, cases, deaths, hospitalizations and mobility data to provide insights to public health authorities to prepare better for what is to come.
 
 ## Data Sources
 
