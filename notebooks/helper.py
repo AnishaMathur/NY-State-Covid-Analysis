@@ -129,8 +129,8 @@ def prepare_df_for_geo_plot(df, model, target, cols,  date='2022-01-01'):
     temp = df.copy()
     X = temp[cols].drop(target, axis=1)
     temp['predicted'] = model.predict(X)
-    temp['predicted_availability'] = temp['predicted']/temp['Total Beds']
-    temp['actual_availability'] = temp['overload-14day']/temp['Total Beds']
+    temp['predicted_availability'] = temp['predicted']/(temp['Total Beds'] + temp['Number of ICU Beds'])
+    temp['actual_availability'] = temp['overload-14day']/(temp['Total Beds'] + temp['Number of ICU Beds'])
     temp.replace([np.inf, -np.inf], 0, inplace=True)
     temp['class_predicted'] = (
         temp['predicted_availability'] < 0.3).astype(int)
@@ -149,6 +149,7 @@ def prepare_df_for_geo_plot(df, model, target, cols,  date='2022-01-01'):
         joined['total_hsp']
     joined['predicted_overload_%'] = joined['predicted_overloaded_hsp'] / \
         joined['total_hsp']
+  
 
     # shape file
     street_map = gpd.read_file(
