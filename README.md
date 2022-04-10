@@ -42,7 +42,10 @@ Visualization of hospital distribution across the state of New York and populati
 
 <img width="1023" alt="Screen Shot 2022-04-09 at 11 15 37 PM" src="https://user-images.githubusercontent.com/65904510/162605111-66be53db-7591-420f-9fb9-7b5d81ccce79.png">
 
+### Vaccination Trends
+Vaccination trend for US and Canada for the whole duration of COVID-19 shows that even though US started administering vaccines before Canada, at the moment, Canada has a higher percentage of vaccinated population. [Link to notebook](https://github.com/AnishaMathur/cmpt-733-term-project/blob/main/EDA/EDA_Vaccination.ipynb)
 
+![global_vaccination](https://user-images.githubusercontent.com/24526992/162610790-0c4094eb-37e8-4b3b-bbaf-fb525294c59f.png)
 
 ## Data Integrations
 
