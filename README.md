@@ -44,10 +44,6 @@ Visualization of hospital distribution across the state of New York and populati
 
 
 
-### Corrleation of Mobility and Covid Cases
-
-
-
 ## Data Integrations
 
 Todo:
