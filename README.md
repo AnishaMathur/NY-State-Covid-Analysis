@@ -75,9 +75,7 @@ Todo:
 2. Links to notebooks
 3. one-liners
 
-## Learning
-
-## Repository Organization:
+## Repository Structure:
 This repo is organized in the following way:
 
 The ``data`` folder contains the raw and processed datasets.
