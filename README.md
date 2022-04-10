@@ -37,8 +37,10 @@ Visualization of hospital distribution across the state of New York and populati
 <img width="1187" alt="Screenshot 2022-04-08 at 2 00 45 PM" src="https://user-images.githubusercontent.com/29632821/162529572-92995319-1141-4ef0-a4c1-cb02fce5f75a.png">
 
 ### Dynamics of Deaths and Cases accross Covid Waves
+1.During the first wave, number of deaths due to Covid was higher in counties with higher population,over the course of Pandemic, the deaths were more among the least densely populated counties and in subsequent waves, death rate was higher in less populated county.
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/65904510/162605195-430f8bf7-503e-4d49-98aa-ca9a01be31c9.png">
 
-### Corrleation of Mobility and Covid Cases
+<img width="1023" alt="Screen Shot 2022-04-09 at 11 15 37 PM" src="https://user-images.githubusercontent.com/65904510/162605111-66be53db-7591-420f-9fb9-7b5d81ccce79.png">
 
 
 
