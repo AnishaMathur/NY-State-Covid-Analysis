@@ -36,6 +36,11 @@ Visualization of hospital distribution across the state of New York and populati
 
 <img width="1187" alt="Screenshot 2022-04-08 at 2 00 45 PM" src="https://user-images.githubusercontent.com/29632821/162529572-92995319-1141-4ef0-a4c1-cb02fce5f75a.png">
 
+### Dynamics of Deaths and Cases accross Covid Waves
+
+### Corrleation of Mobility and Covid Cases
+
+
 
 ## Data Integrations
 
