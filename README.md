@@ -23,13 +23,6 @@ install git-lfs from [here](https://git-lfs.github.com/)
 
 ## Exploratory Data Analysis
 
-Todo:
-
-1. Folder restructuring [EDA Folder]
-2. A link in Readme pointing to the Folder
-3. Important Analysis plots/one-liner
-
-
 ### Hospital Distribution
 Visualization of hospital distribution across the state of New York and population density
 [Link to notebook](https://github.com/AnishaMathur/cmpt-733-term-project/blob/main/EDA/Hospitals.ipynb)
@@ -37,8 +30,8 @@ Visualization of hospital distribution across the state of New York and populati
 <img width="1187" alt="Screenshot 2022-04-08 at 2 00 45 PM" src="https://user-images.githubusercontent.com/29632821/162529572-92995319-1141-4ef0-a4c1-cb02fce5f75a.png">
 
 ### Dynamics of Deaths and Cases accross Covid Waves
-1.During the first wave, number of deaths due to Covid was higher in counties with higher population,over the course of Pandemic, the deaths were more among the least densely populated counties and in subsequent waves, death rate was higher in less populated county.
-<img width="512" alt="image" src="https://user-images.githubusercontent.com/65904510/162605195-430f8bf7-503e-4d49-98aa-ca9a01be31c9.png">
+During the first wave, number of deaths due to Covid was higher in counties with higher population,over the course of Pandemic, the deaths were more among the least densely populated counties and in subsequent waves, death rate was higher in less populated county.
+[Link to notebook](https://github.com/AnishaMathur/cmpt-733-term-project/blob/main/analysis/Deeper%20analysis%20of%20coutywise%20deaths.ipynb)
 
 <img width="1023" alt="Screen Shot 2022-04-09 at 11 15 37 PM" src="https://user-images.githubusercontent.com/65904510/162605111-66be53db-7591-420f-9fb9-7b5d81ccce79.png">
 
@@ -48,13 +41,6 @@ Vaccination trend for US and Canada for the whole duration of COVID-19 shows tha
 ![global_vaccination](https://user-images.githubusercontent.com/24526992/162610790-0c4094eb-37e8-4b3b-bbaf-fb525294c59f.png)
 
 ## Data Integrations
-
-Todo:
-
-1. Folder restructuring [Integration Folder]
-2. A link in Readme pointing to the Folder
-3. Final dataset generation is included in this
-4. scripts to run those python tasks.
 
 [Link to folder](https://github.com/AnishaMathur/cmpt-733-term-project/tree/main/integration)
 
@@ -78,12 +64,6 @@ Comparison model predictions (on the left) and actual county-wise hospital overl
 ## County-wise Analysis
 
 A county-wise analysis of data of the state of New York, comparing regions that were the most impacted with regions that were the least impacted.
-
-Todo:
-
-1. Important graphs
-2. Links to notebooks
-3. one-liners
 
 The effect of Vaccination on number of cases, deaths and hospitalizations varies for each county. They isn't any fixed pattern that we can observe. This can be visualised for various waves from the graphs plotted in this [notebook](https://github.com/AnishaMathur/cmpt-733-term-project/blob/main/analysis/visualisation.ipynb)
 
