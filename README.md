@@ -63,6 +63,9 @@ The code for running the model can be found in this [notebook](https://github.co
 Comparison model predictions (on the left) and actual county-wise hospital overload 14 days in advance.
 <img width="1115" alt="Screenshot 2022-04-08 at 5 13 34 PM" src="https://user-images.githubusercontent.com/29632821/162548545-09dd3096-b2f0-4bf0-bd8e-8e3bd207ded5.png">
 
+<img width="1223" alt="Screen Shot 2022-04-10 at 10 15 39 PM" src="https://user-images.githubusercontent.com/42242797/162765209-d7d030fe-f444-4ceb-80ff-39a97a7cb991.png">
+
+
 ## County-wise Analysis
 
 A county-wise analysis of data of the state of New York, comparing regions that were the most impacted with regions that were the least impacted.
