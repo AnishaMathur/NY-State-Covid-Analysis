@@ -7,3 +7,4 @@ matplotlib
 shapely
 contextily
 mapclassify
+xgboost
