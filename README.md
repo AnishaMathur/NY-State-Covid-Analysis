@@ -65,11 +65,19 @@ Comparison model predictions (on the left) and actual county-wise hospital overl
 
 A county-wise analysis of data of the state of New York, comparing regions that were the most impacted with regions that were the least impacted.
 
-The effect of Vaccination on number of cases, deaths and hospitalizations varies for each county. They isn't any fixed pattern that we can observe. This can be visualised for various waves from the graphs plotted in this [notebook](https://github.com/AnishaMathur/cmpt-733-term-project/blob/main/analysis/visualisation.ipynb)
+The effect of Vaccination on number of cases, deaths and hospitalizations varies for each county. There isn't any fixed pattern that we can observe. This can be visualised for various waves from the graphs plotted in this [notebook](https://github.com/AnishaMathur/cmpt-733-term-project/blob/main/analysis/visualisation.ipynb).
 
 The below plots depict the state of New York's third wave. We can observe how each county reacts to vaccination (bottom left plot), in terms of case count (top left plot), death count (top right corner) and hospitalization count (bottom right corner).
 ![vaccine_map](https://user-images.githubusercontent.com/24526992/162612179-6506398e-95d3-4bca-ad1c-2a0c351dc7c8.png)
 
+Examples of some of the counties' trends are as listed below,
+
+|                 | St. Lawrence | Jefferson |	Allegany|
+|:---------------:|:------------:|:---------:|:---------:               
+| Vaccination     |	High         |	Low      |	Medium  |
+| Cases           |	High         |	Medium   |	High    |
+| Deaths          |	Low          |	High     |	Low     |
+| Hospitalization |	Medium       |	Low      |	Medium  |
 
 ## Repository Structure:
 This repo is organized in the following way:
