@@ -70,7 +70,7 @@ The effect of Vaccination on number of cases, deaths and hospitalizations varies
 The below plots depict the state of New York's third wave. We can observe how each county reacts to vaccination (bottom left plot), in terms of case count (top left plot), death count (top right corner) and hospitalization count (bottom right corner).
 ![vaccine_map](https://user-images.githubusercontent.com/24526992/162612179-6506398e-95d3-4bca-ad1c-2a0c351dc7c8.png)
 
-Examples of some of the counties' trends are as listed below,
+Examples of some of the counties' trends are as listed below:
 
 |                 | St. Lawrence | Jefferson |	Allegany|
 |:---------------:|:------------:|:---------:|:---------:               
@@ -88,8 +88,10 @@ The ``EDA`` folder contains the notebooks associated with the EDA performed.
 
 The ``integration`` folder contains the scripts used for integrating the data sources.
 
-The `` analysis`` folder contains notebooks for the county-wise analysis.
+The ``analysis`` folder contains notebooks for the county-wise analysis.
 
 The ``model`` folder contains the notebook with the final version of the model.
+
+The ``notebooks`` folder contains other notebooks used.
 
 The ``archive`` folder contains old versions of the notebooks.
