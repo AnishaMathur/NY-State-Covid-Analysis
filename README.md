@@ -50,7 +50,9 @@ Run below integration commands to generate datasets for the model and visualizat
 cd integration
 python3 NY_hospitals_cleanup.py # will generate processed hospital dataset
 python3 NY_vaccination.py # will generate processed vaccination dataset
-python3 integration.py # will combine all datasets and output a merged dataset
+python3 NY_daily_cases.py # will generate processed daily cases dataset
+python3 NY_daily_deaths.py # will generate processed daily deaths dataset
+python3 integration.py # will combine all the above datasets and output a merged dataset
 ```
 
 ## Forecasting Hospital Overload
